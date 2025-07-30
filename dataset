@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Ganga Main Channel",
+        "base_slope": 0.0008,
+        "curvature": 1,
+        "manning_n": 0.035,
+        "critical_shear": 2.8,
+        "channel_width": 250,
+        "calculated": {
+          "flowDepth": "1.59",
+          "velocity": "1.09",
+          "shearStress": "12.31",
+          "riskIndex": "4.40"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78,
+            29.9
+          ],
+          [
+            78.5,
+            29.7
+          ],
+          [
+            79,
+            29.8
+          ],
+          [
+            79.5,
+            29.6
+          ],
+          [
+            80,
+            29.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Prayag Meander",
+        "base_slope": 0.0005,
+        "curvature": 1.8,
+        "manning_n": 0.04,
+        "critical_shear": 2.2,
+        "channel_width": 300,
+        "calculated": {
+          "flowDepth": "1.78",
+          "velocity": "0.81",
+          "shearStress": "15.50",
+          "riskIndex": "7.05"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80,
+            29.7
+          ],
+          [
+            80.2,
+            29.5
+          ],
+          [
+            80,
+            29.3
+          ],
+          [
+            80.3,
+            29.1
+          ],
+          [
+            80.5,
+            29.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Himalayan Tributary",
+        "base_slope": 0.0025,
+        "curvature": 1.2,
+        "manning_n": 0.05,
+        "critical_shear": 4.5,
+        "channel_width": 80,
+        "calculated": {
+          "flowDepth": "2.77",
+          "velocity": "1.89",
+          "shearStress": "76.23",
+          "riskIndex": "16.94"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.6,
+            30.2
+          ],
+          [
+            78.5,
+            29.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Bengal Delta Reach",
+        "base_slope": 0.0001,
+        "curvature": 1.1,
+        "manning_n": 0.025,
+        "critical_shear": 1.8,
+        "channel_width": 600,
+        "calculated": {
+          "flowDepth": "1.43",
+          "velocity": "0.51",
+          "shearStress": "1.54",
+          "riskIndex": "0.85"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.5,
+            29.2
+          ],
+          [
+            81,
+            29
+          ],
+          [
+            81.5,
+            28.8
+          ],
+          [
+            82,
+            28.9
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Confluence Zone",
+        "base_slope": 0.0003,
+        "curvature": 1.4,
+        "manning_n": 0.038,
+        "critical_shear": 2,
+        "channel_width": 450,
+        "calculated": {
+          "flowDepth": "1.57",
+          "velocity": "0.61",
+          "shearStress": "6.44",
+          "riskIndex": "3.22"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.5,
+            29.2
+          ],
+          [
+            80.6,
+            29.3
+          ]
+        ]
+      }
+    }
+  ]
+}
